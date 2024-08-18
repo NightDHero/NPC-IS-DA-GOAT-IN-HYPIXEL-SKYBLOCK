@@ -694,7 +694,7 @@ document.addEventListener('DOMContentLoaded', () => {
             saveMenu.classList.add('hidden');
         }
     
-        const activeItems = document.querySelectorAll('.save-menu');
+        const activeItems = document.querySelectorAll('.save-menu, .save-menu input, .save-menu button');
         activeItems.forEach(item => {
             item.classList.remove('bottom-padding')
             item.classList.remove('delete-glow-border');
